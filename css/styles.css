@@ -1,0 +1,244 @@
+#title {
+  background-color: #ff4c68;
+}
+body {
+  overflow-x: hidden;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  size: 3rem;
+  line-height: 1.5;
+}
+
+#heading2 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+
+
+#heading {
+  font-size: 3.5rem;
+}
+
+/* ICONS */
+
+i {
+  padding-right: 5px;
+}
+
+/* NAV BAR */
+
+.CF {
+  padding: 3% 15% 7%;
+}
+
+#tindog {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+#nav {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.Download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: white;
+  padding-top: 100px;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.tick-mark {
+  width: 150%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+#feature-box {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background-color: #ef8172;
+
+  text-align: center;
+  color: white;
+}
+
+.testimonials-text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.dog-img {
+  border-radius: 100%;
+  width: 16%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-image {
+  width: 16%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#carousal-item {
+  padding: 7% 15%;
+}
+
+#carousal-item2 {
+  padding: 7% 15%;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 5%;
+  text-align: center;
+}
+
+.cta_text {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#appstore_btn {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#playstore_btn {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer_btn{
+  margin: 20px 10px;
+}
+
+#facebook{
+  margin: 20px 10px;
+}
+
+#twitter{
+  margin: 20px10px;
+}
+
+#instagram{
+  margin: 20px 10px;
+}
+
+#email{
+  margin: 20px 10px;
+}
